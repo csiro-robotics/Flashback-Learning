@@ -17,7 +17,7 @@ FL operates through a **two-phase** training process and can be seamlessly integ
 
 Theoretically, we analyze how the FL mechanism enhances the stability–plasticity balance. Empirically, FL demonstrates tangible improvements over baseline methods within the same training budget. By integrating FL into at least one representative baseline from each CL category, we observed an average accuracy improvement of up to **4.91%** in Class-Incremental and **3.51%** in Task-Incremental settings on standard image classification benchmarks. Additionally, measurements of the stability-to-plasticity ratio confirm that FL effectively enhances this balance. FL also outperforms state-of-the-art CL methods on more challenging datasets like ImageNet.
 
-For future updates and code releases, please visit our [GitHub repository](https://github.com/csiro-robotics/Flashback-Learning).
+For future updates and code releases, please visit [GitHub repository](https://github.com/Leila-Mah/Flashback-Learning.git).
 
 
 <!-- Image with caption (HTML-safe for RMarkdown HTML rendering) -->
