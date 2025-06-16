@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# Flashback-Learning
 Flashback-Learning (FL)
 =======
 <h2 style="font-size:28pt; font-weight:bold;">Flashback to Harmonize Stability and Plasticity in Continual Learning</h2>
