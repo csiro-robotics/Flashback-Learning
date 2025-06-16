@@ -252,4 +252,3 @@ We gratefully acknowledge the contributions of the following repositories, which
 * [Mammoth: A Flexible Framework for Continual Learning](https://github.com/aimagelab/mammoth)
 
 We thank the authors of these projects for making their code publicly available.
->>>>>>> 1db056f (Initial Commit)
