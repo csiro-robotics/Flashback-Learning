@@ -42,8 +42,6 @@ pip install -r requirements.txt
 ---
 
 
-**<span style="font-size:20pt">Datasets</span>** 
-
 ### Common Benchmarks
 
 We have used the following common benchmarks in this project:
