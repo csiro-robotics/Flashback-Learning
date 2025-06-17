@@ -1,22 +1,16 @@
 Flashback-Learning (FL)
 =======
-<h2 style="font-size:28pt; font-weight:bold;">Flashback to Harmonize Stability and Plasticity in Continual Learning</h2>
+<h2 style="font-size:28pt; font-weight:bold;">Flashbacks to harmonize stability and plasticity in continual learning</h2>
 
 <h3 style="font-size:20pt; font-weight:bold; margin-top:30px;">Abstract</h3>
 
-[Read the paper on arXiv](https://arxiv.org/abs/2506.00477)
+### Introduction 
 
+The official repository of "[Flashbacks to harmonize stability and plasticity in continual learning](https://doi.org/10.1016/j.neunet.2025.107616)" published in the Neural Networks, 2025. 
 
-*Manuscript submitted to Neural Networks (Elsevier) in August 2024 and accepted in May 2025 for publication.*
+Official paper link [NN]: (https://doi.org/10.1016/j.neunet.2025.107616) 
 
-We introduce Flashback Learning (FL), a novel method designed to harmonize the stability and plasticity of models in Continual Learning (CL). Unlike prior approaches that primarily focus on regularizing model updates to preserve old information while learning new concepts, FL explicitly balances this trade-off through a **bidirectional** form of regularization. This approach effectively guides the model to swiftly incorporate new knowledge while actively retaining its old knowledge.
-
-FL operates through a **two-phase** training process and can be seamlessly integrated into various CL methods, including replay, parameter regularization, distillation, and dynamic architecture techniques. In designing FL, we use two distinct **knowledge bases**: one to enhance plasticity and another to improve stability. FL ensures a more balanced model by utilizing both knowledge bases to regularize model updates.
-
-Theoretically, we analyze how the FL mechanism enhances the stability–plasticity balance. Empirically, FL demonstrates tangible improvements over baseline methods within the same training budget. By integrating FL into at least one representative baseline from each CL category, we observed an average accuracy improvement of up to **4.91%** in Class-Incremental and **3.51%** in Task-Incremental settings on standard image classification benchmarks. Additionally, measurements of the stability-to-plasticity ratio confirm that FL effectively enhances this balance. FL also outperforms state-of-the-art CL methods on more challenging datasets like ImageNet.
-
-For future updates and code releases, please visit [GitHub repository](https://github.com/Leila-Mah/Flashback-Learning.git).
-
+Read the paper on [arXiv]: (https://arxiv.org/abs/2506.00477)
 
 <!-- Image with caption (HTML-safe for RMarkdown HTML rendering) -->
 <center>
@@ -24,6 +18,15 @@ For future updates and code releases, please visit [GitHub repository](https://g
 </center>
 
 <p style="font-size:0.95em; text-align:center; margin-top:10px;"><b>Figure:</b> Flashback Learning overview. At task <i>t</i>, <b>Phase 1</b> updates the old model on new data to obtain primary model <i>f(.; θₚ)</i>. Then, it extracts new knowledge and stores it in PKB. <b>Phase 2</b> flashbacks to the old model <i>f(.; θ<sub>t−1</sub><sup>*</sup>)</i>, regularized bidirectionally by stable and plastic knowledge, yielding <i>f(.; θ<sub>t</sub><sup>*</sup>)</i>.</p>
+
+
+
+We introduce Flashback Learning (FL), a novel method designed to harmonize the stability and plasticity of models in Continual Learning (CL). Unlike prior approaches that primarily focus on regularizing model updates to preserve old information while learning new concepts, FL explicitly balances this trade-off through a **bidirectional** form of regularization. This approach effectively guides the model to swiftly incorporate new knowledge while actively retaining its old knowledge.
+
+FL operates through a **two-phase** training process and can be seamlessly integrated into various CL methods, including replay, parameter regularization, distillation, and dynamic architecture techniques. In designing FL, we use two distinct **knowledge bases**: one to enhance plasticity and another to improve stability. FL ensures a more balanced model by utilizing both knowledge bases to regularize model updates.
+
+Theoretically, we analyze how the FL mechanism enhances the stability–plasticity balance. Empirically, FL demonstrates tangible improvements over baseline methods within the same training budget. By integrating FL into at least one representative baseline from each CL category, we observed an average accuracy improvement of up to **4.91%** in Class-Incremental and **3.51%** in Task-Incremental settings on standard image classification benchmarks. Additionally, measurements of the stability-to-plasticity ratio confirm that FL effectively enhances this balance. FL also outperforms state-of-the-art CL methods on more challenging datasets like ImageNet.
+
 
 ---
 <h3 style="font-size:20pt; font-weight:bold; margin-top:30px;">Setting Environment</h3> 
