@@ -2,7 +2,6 @@ Flashback-Learning (FL)
 =======
 <h2 style="font-size:28pt; font-weight:bold;">Flashbacks to harmonize stability and plasticity in continual learning</h2>
 
-<h3 style="font-size:20pt; font-weight:bold; margin-top:30px;">Abstract</h3>
 
 ### Introduction 
 
