@@ -2,6 +2,21 @@ Flashback-Learning (FL)
 =======
 <h2 style="font-size:28pt; font-weight:bold;">Flashbacks to harmonize stability and plasticity in continual learning</h2>
 
+<p align="center">
+  <a href="https://github.com/csiro-robotics/Flashback-Learning/commits/main">
+    <img src="https://img.shields.io/github/last-commit/csiro-robotics/Flashback-Learning" alt="Last Commit" />
+  </a>
+  <a href="https://github.com/csiro-robotics/Flashback-Learning/issues">
+    <img src="https://img.shields.io/github/issues/csiro-robotics/Flashback-Learning" alt="Issues" />
+  </a>
+  <a href="https://github.com/csiro-robotics/Flashback-Learning/pulls">
+    <img src="https://img.shields.io/github/issues-pr/csiro-robotics/Flashback-Learning" alt="Pull Requests" />
+  </a>
+  <a href="https://github.com/csiro-robotics/Flashback-Learning/stargazers">
+    <img src="https://img.shields.io/github/stars/csiro-robotics/Flashback-Learning?style=social" alt="Stars" />
+  </a>
+</p>
+
 
 ### Introduction 
 
